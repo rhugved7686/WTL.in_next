@@ -11,6 +11,7 @@ import { AboutAshtavinayak } from './Components/AboutAshtavinayak';
 import { AshtavinayakTourPackages } from './Components/AshtavinayakTourPackages';
 import { ContactAshtavinayak } from './Components/ContactAshtavinayak';
 import './App.css';
+import Home2 from './Components/Home2';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home2 />} />
             <Route path="/dates" element={<Dates />} />
             <Route path="/About" element={<AboutMahaKumbh />} />
             <Route path="/TourPackages" element={<KumbhTourPackage />} />
